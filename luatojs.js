@@ -783,8 +783,7 @@ def range_decimal(start, stop, step=1, stop_inclusive=False):
 */
 
 
-    out = `
-import decimal
+    out = `import decimal
 def range_decimal(start,stop,step=1,stop_inclusive=False):
 	G=None;C=step;B=stop;A=start
 	try:

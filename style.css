@@ -30,3 +30,12 @@ p, h1, h2, h3 {
 #spacer {
     min-height: 100%;
 }
+
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+    text-align: center;
+    /* grid-template-rows: 350%; */
+    /* height: 350% */
+}
